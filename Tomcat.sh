@@ -14,6 +14,9 @@
    cd /opt
    wget http://mirrors.fibergrid.in/apache/tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35.tar.gz
    tar -xvzf /opt/apache-tomcat-<version>.tar.gz
+   mv apache-tomcat-10.0.17.tar.gz tomcat 
+   cd tomcat 
+   ./startup.sh (to start the tomcat server)
    ```
 1. give executing permissions to startup.sh and shutdown.sh which are under bin. 
    ```sh
