@@ -8,6 +8,9 @@
    > Note: Make sure you change `<version>` with the tomcat version which you download. 
    ```sh 
    # Create tomcat directory
+   sudo su 
+   hostname tomcat
+   sudo su -
    cd /opt
    wget http://mirrors.fibergrid.in/apache/tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35.tar.gz
    tar -xvzf /opt/apache-tomcat-<version>.tar.gz
